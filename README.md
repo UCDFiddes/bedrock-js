@@ -1,0 +1,1 @@
+Simply load the script found in build/ and you're ready to go!

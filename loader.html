@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>bedrock.js loader</title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="build/bedrock.js"></script>
+
+    <script type="text/javascript">
+      Bedrock.ready(function() {
+        console.log('Connected!');
+      });      
+
+      Bedrock.notReady(function() {
+        console.log('Disconnected.');
+      });
+
+      Bedrock.connect();
+    </script>
+  </body>
+</html>
